@@ -1,0 +1,31 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+/* You can add global styles to this file, and also import other style files */
+
+.container{
+    text-align: center;
+}
+body{
+    background-color:rgb(211, 200, 200);
+}
+h1{
+    font-size: 100px;
+    color:rgb(76, 76, 209);
+}
+
+span{
+    justify-content: space-evenly;
+}
+
+.person{
+    display:flex; 
+  
+}
+h5{
+    font-size: 40px;
+    margin-left: 10%;
+    text-decoration: underline;
+}
+.card{
+    margin-top: 5%;
+}
