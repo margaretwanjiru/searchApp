@@ -5,6 +5,7 @@ GithubSearcher
 Margaret Irungu
 
 ## Description
+    This Project tries to find the github users through their username and shows the repositories for each user.
     
 ## Development server
 
