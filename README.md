@@ -6,6 +6,9 @@ GithubSearcher
 
 Margaret Irungu
 
+## CodeBeat badge
+[![codebeat badge](https://codebeat.co/badges/4db3b316-3130-4472-b9c8-0d53c0464402)](https://codebeat.co/projects/github-com-margaretwanjiru-searchapp-master)
+
 ## Description
 * This Project tries to find the github users through their username and shows the repositories for each user.
 * The project is created using Angular Cli version 8.3.23
