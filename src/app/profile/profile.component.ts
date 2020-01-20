@@ -1,47 +1,49 @@
-import { Component, OnInit } from '@angular/core';
-import { ProfileService } from '../profile.service';
+import { Component, OnInit } from "@angular/core";
+import { ProfileService } from "../profile.service";
 
 @Component({
-  selector: 'app-profile',
-  templateUrl: './profile.component.html',
-  styleUrls: ['./profile.component.scss']
+  selector: "app-profile",
+  templateUrl: "./profile.component.html",
+  styleUrls: ["./profile.component.scss"]
 })
 export class ProfileComponent implements OnInit {
   profile;
   repos;
   username: string;
 
-  constructor(private profileService:ProfileService) {
+  constructor(private profileService: ProfileService) {
     this.profileService.updateProfile(this.username);
     this.profileService.getProfileInfo().subscribe(profile => {
       console.log(profile);
       this.profile = profile;
     });
-  
+
     this.profileService.getProfileRepos().subscribe(repos => {
       console.log(repos);
       this.repos = repos;
     });
   }
-   
-  findProfile(){
+
+  findProfile() {
     this.profileService.updateProfile(this.username);
     this.profileService.getProfileInfo().subscribe(profile => {
       console.log(profile);
       this.profile = profile;
     });
-  
+
     this.profileService.getProfileRepos().subscribe(repos => {
       console.log(repos);
       this.repos = repos;
-    })
-  
+    });
   }
 
   ngOnInit() {
-    this.profileService.updateProfile('margaretwanjiru');
-    this.profileService.getProfileInfo().subscribe(profile => this.profile = profile);
-    this.profileService.getProfileRepos().subscribe(repos =>  this.repos = repos);
+    this.profileService.updateProfile("margaretwanjiru");
+    this.profileService
+      .getProfileInfo()
+      .subscribe(profile => (this.profile = profile));
+    this.profileService
+      .getProfileRepos()
+      .subscribe(repos => (this.repos = repos));
   }
-
 }
