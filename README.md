@@ -17,3 +17,13 @@ Margaret Irungu
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Support and Collaboration
+* To anyone who would like to add a feature to th site, kindly clone the site  and further contact me on the permission to merge your changes.
+
+## Contacts Info
+* Email : sairzmargaret44@gmail.com
+* +254 708152764
+
+## LICENSE info
+ * - Licensed under the  [MIT license](LICENSE).
