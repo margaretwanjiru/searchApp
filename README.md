@@ -5,7 +5,9 @@ GithubSearcher
 Margaret Irungu
 
 ## Description
-    This Project tries to find the github users through their username and shows the repositories for each user.
+    This Project tries to find the github users through their 
+    <br>username and shows the repositories for each user.<br>
+    The project is created using Angular Cli version 8.3.23
 
 ## Set up instructions
 * You need to have a good network connection.
