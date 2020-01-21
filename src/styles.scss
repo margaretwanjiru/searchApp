@@ -12,18 +12,22 @@ h1{
     font-size: 100px;
     color:rgb(76, 76, 209);
 }
-
+.person{
+    margin-top: 3%;
+}
+.list-group{
+    text-align:center;
+    margin-left: 3%;
+    margin-top: 7%;
+}
 span{
     justify-content: space-evenly;
 }
-
-.person{
-    display:flex; 
-  
+.row{
+    display: flex;
 }
 h5{
     font-size: 40px;
-    margin-left: 10%;
     text-decoration: underline;
 }
 .card{
